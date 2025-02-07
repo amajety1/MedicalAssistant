@@ -1,0 +1,13 @@
+openai
+PyYAML
+beautifulsoup4
+requests
+serpapi
+flask
+flask_cors
+tiktoken
+faiss-cpu
+python-dotenv
+token-count
+google_search_results
+aiohttp
