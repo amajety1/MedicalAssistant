@@ -19,6 +19,8 @@ cd sherlockSearch
 ---
 
 ### **2. Install Dependencies**
+
+#### Backend Dependencies
 Ensure you have Python 3.8 or higher installed.
 
 Install the required Python libraries using `pip`:
@@ -26,15 +28,35 @@ Install the required Python libraries using `pip`:
 pip install -r requirements.txt
 ```
 
+#### Frontend Dependencies
+Ensure you have Node.js and npm installed.
+
+Navigate to the frontend directory and install dependencies:
+```bash
+cd frontend
+npm install
+```
+
 ---
 
-### **3. Run the API**
+### **3. Run the Application**
+
+#### Start the Backend API
 Start the Flask API by executing the following command:
 ```bash
 python api.py
 ```
 
 This will start the server, and it should listen on `http://127.0.0.1:5000`.
+
+#### Start the Frontend Development Server
+In a new terminal, navigate to the frontend directory and start the development server:
+```bash
+cd frontend
+npm run dev
+```
+
+This will start the frontend development server, typically accessible at `http://localhost:3000`.
 
 ---
 
